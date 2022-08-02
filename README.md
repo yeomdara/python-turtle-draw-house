@@ -6,12 +6,15 @@
 <h2>Draw Tangent Circles in Python Turtle</2>
 <br>
 
-```
+```ruby
 import turtle
 ```
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+t = turtle.Turtle()
+for i in range(50):
+  t.circle(10*i)
+  t.up()
+  t.sety((10*i)*(-1))
+  t.down()
 ```
