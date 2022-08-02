@@ -5,4 +5,10 @@
 # Example
 <h2>Draw Tangent Circles in Python Turtle</2>
 
+import turtle
+  
+t = turtle.Turtle()
+for i in range(10):
+  t.circle(10*i)
+Output of the above program-
 
