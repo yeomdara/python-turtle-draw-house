@@ -18,3 +18,4 @@ for i in range(50):
   t.sety((10*i)*(-1))
   t.down()
 ```
+![dsadaeqweqweq](https://user-images.githubusercontent.com/108196667/182406619-9388dbbd-f285-4c6c-b9d0-04d75237833c.png)
